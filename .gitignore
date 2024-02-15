@@ -1,0 +1,7 @@
+.idea/
+/data/
+/obj/
+__pycache__/
+lib/eigen-3.4.0/
+TP1.zip
+a.out
