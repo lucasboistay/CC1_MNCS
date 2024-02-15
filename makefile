@@ -25,5 +25,8 @@ super_clean :
 clean_data :
 	$(RM) data/*.txt data/*.pdf
 
+plot :
+	python3 affiche.py data/erreur.txt
+
 tar :
 	tar --exclude lib -cvzf cc1_BOISTAY.tgz ./*

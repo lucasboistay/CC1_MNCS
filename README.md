@@ -9,6 +9,7 @@
 - `make` : compile the project
 - `make clean` : clean the project
 - `make tar` : make a .tar of the project
+- `make plot` : to plot the error graph
 
 ## Usage :
 
