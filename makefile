@@ -24,3 +24,6 @@ super_clean :
 
 clean_data :
 	$(RM) data/*.txt data/*.pdf
+
+tar :
+	tar --exclude lib -cvzf cc1_BOISTAY.tgz ./*

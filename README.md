@@ -8,13 +8,13 @@
 
 - `make` : compile the project
 - `make clean` : clean the project
-- `make run` : run the project
+- `make tar` : make a .tar of the project
 
 ## Usage :
 
 ````shell
 ./a.out
-python3 ./affiche.py data/[nom_fichier].txt
+python3 ./affiche.py data/erreur.txt
 ````
 
 ## Project structure :
@@ -23,5 +23,3 @@ python3 ./affiche.py data/[nom_fichier].txt
 - `include/` : contains the header files
 - `lib/` : contains the libraries
 - `data/` : contains the data files created by the program
-- `obj/` : contains the object files created by the compilation
-

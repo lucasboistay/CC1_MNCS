@@ -44,9 +44,9 @@ plt.figure( figsize=(11.69, 8.27) ) # taille en inches : A4 paysage
 plt.title( titre, fontsize=8)
 plt.grid()
 
-plt.loglog(x, y, "o", label="logistique")                # <== choix de la legende
-plt.xlabel("x")                                   # <== variable d'abscisse
-plt.ylabel("y")                                   # <== variable d'ordonnee
+plt.loglog(x, y, "o", label="D2C 3termes")                # <== choix de la legende
+plt.xlabel("h")                                   # <== variable d'abscisse
+plt.ylabel("delta")                                   # <== variable d'ordonnee
 
 plt.legend()
 plt.savefig(nomgraph) # sauvegarde du fichier.

@@ -33,7 +33,7 @@ int main() {
     // test de la dérivée analytique de la fonction en t_0
 
     cout << "Valeur de la dérivée analytique de la fonction en t = 0.5 : " << d2cosh_kt(t_0) << endl; // doit être égal à 6.172
-    cout << "Valeur de la dérivée numérique de la fonction en t = 0.5 : " << deriv2_3tc(cosh_kt, t_0, 0.0001) << endl; // doit être égal à 6.172
+    cout << "Valeur de la dérivée numérique de la fonction en t = 0.5 : " << deriv2_3tc(cosh_kt, t_0, 0.01) << endl; // doit être égal à 6.172
 
     float r = pow((h_max/h_min), 1./(nombre_iteration-1));
 
@@ -43,7 +43,7 @@ int main() {
     for (int i=0; i<nombre_iteration; i++){
         h(i) = h_min * pow(r, i); // affectation des valeurs du vecteur h
         // v Mettre en dessous l'affectation du vecteur delta v
-        delta(i) = abs(d2cosh_kt(h(i)) - deriv2_3tc(cosh_kt, t_0, h(i)));
+        delta(i) = abs(d2cosh_kt(t_0) - deriv2_3tc(cosh_kt, t_0, h(i)));
     }
 
     cout << "Premières valeures de delta : " << delta(0) << " " << delta(1) << " " << delta(2) << " " << delta(3) << " " << delta(4) << endl;

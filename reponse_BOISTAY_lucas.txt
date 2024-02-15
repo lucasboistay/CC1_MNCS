@@ -1,0 +1,21 @@
+/*
+ * Created on 15/02/2024
+ * Author : Lucas BOISTAY, 3809291
+ */
+
+
+Question 10 :
+-------------
+
+- On est environ sur du 1.5e-2. (croisement des deux pentes sur le graphique).
+
+- L'erreur dominante lorsque h < h_opt est l'erreur d'arrondi (erreur aléatoire) et lorsque h > h_opt
+l'erreur de troncature.
+
+- On remarque facilement des pentes 2 pour la troncature et -2 pour l'erreur d'arrondi.
+
+
+
+Question 11 :
+-------------
+
